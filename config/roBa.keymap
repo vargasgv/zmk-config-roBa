@@ -136,7 +136,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 ENTER  &lt_to_layer_0 3 INT_MUHENKAN      &kp SPACE      &lt 1 BSPC                              &kp DEL
             >;
 
-            sensor-bindings = <&rot_scrl>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
         FUNCTION {
@@ -179,8 +179,8 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &msc SCRL_UP    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &msc SCRL_DOWN  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;

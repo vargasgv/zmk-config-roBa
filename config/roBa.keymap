@@ -151,14 +151,14 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 ENTER  &lt_to_layer_0 3 INT_MUHENKAN      &kp SPACE      &lt 1 BSPC                              &kp DEL
             >;
 
-            sensor-bindings = <&rot_scrl>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
         FUNCTION {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                       &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp C_PREV  &kp C_PP  &kp C_NEXT  &trans  &trans  &kp C_MUTE      &kp F13  &kp F11  &kp F12  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans
+&kp C_PREV  &kp C_PP  &kp C_NEXT  &trans  &trans  &kp C_MUTE      &kp F13  &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &trans
             >;
 
